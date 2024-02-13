@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo{
+    background-image: linear-gradient(50deg, black, rgb(31, 111, 216));
+    width: 100%;
+    height: 100vw;
+}
+
+.aparelho-tam{
+    position: absolute;
+    color: #fff;
+    width: 600px;
+    height:400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 05px;
+}
+.wallpaper{
+    width: 600px;
+    height:400px;
+}
+
+.painel-menu{
+    display: block;
+    width: 30px;
+    padding: 10px;
+    position: absolute;  
+    background-color: #000000;
+    height:380px;
+}
+
+#bt-menu{
+    border: none;
+    background-color: #000000;
+}
+#bt-fone{
+    border: none;
+    background-color: #000000;
+}
+#bt-volmais{
+    border: none;
+    background-color: #000000;
+}
+#bt-volmenos{
+    border: none;
+    background-color: #000000;
+}
+#menu-icon{
+    width: 30px;
+    margin-top: 30px;
+    padding-bottom: 60px;
+    background-color: #000000;
+}
+#fone{
+    width: 30px;
+    margin-bottom: 60px;
+    background-color: #000000;
+}
+#volume-mais{
+    width: 30px;
+    margin-bottom: 60px;
+    background-color: #000000;
+}
+#volume-menos{
+    width: 30px;
+    background-color: #000000;
+}
+
+.radio-img{
+    width: 70px;
+    position: absolute;
+    margin-top: -35px;
+    margin-left: -35px;
+}
+
+#bt-radio{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 60px;
+    background-color:rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    border-style: none;
+}
+
+.bluetooth-img{
+    width: 70px;
+    position: absolute;
+    margin-top: -35px;
+    margin-left: -35px;
+}
+#bt-bluetooth{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 190px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    border-style: none;
+}
+#bt-pendrive{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-top: -30px;
+    margin-left: 320px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    border-style: none;
+}
+.pendrive-img{
+    position: absolute;
+    width: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    
+}
+
+#bt-config{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-top: -30px;
+    margin-left: 440px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    border-style: none;
+}
+.config-img{
+    position: absolute;
+    width: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    
+}
+
+#player-music{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 100px;
+    opacity: 0.1;
+}
