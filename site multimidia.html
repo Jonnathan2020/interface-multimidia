@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de multimidia</title>
+    <link rel="stylesheet" href="https://www.flaticon.com/br/uicons/interface-icons">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fundo">
+        <div class="aparelho-tam">
+            <div class="painel-menu">
+                <div class="img-painel">
+                    <!--div menu esquerdo-->
+                    <button id="bt-menu"><img src="/imgs/aplicativos.png" alt="menu-icon" id="menu-icon"></button>
+                    <button id="bt-fone"><img src="imgs/microfone.png" alt="fone" id="fone"></button>
+                    <button id="bt-volmais"><img src="/imgs/mais.png" alt="volume-mais" id="volume-mais"></button>
+                    <button id="bt-volmenos"><img src="/imgs/menos.png" alt="volume-menos" id="volume-menos"></button>
+
+                    <!--div visor central-->
+                    <button type="button" id="bt-radio"><img src="imgs/frequencia_radio.png" alt="" class="radio-img"></button>
+                    <button type="button" id="bt-bluetooth"><img src="imgs/bluetooth.png" alt="" class="bluetooth-img"></button>
+                    <button type="button" id="bt-pendrive"><img src="imgs/pendrive.png" alt="" class="pendrive-img"></button>
+                    <button type="button" id="bt-config"><img src="imgs/configuracoes.png" alt="" class="config-img"></button>
+                    <audio src="/musica/ritmista.mp4" controls autoplay id="player-music"></audio>
+                </div><!-- icones menu -->
+            </div><!-- painel-menu -->
+            <img src="imgs/background.jpg" alt="" class="wallpaper">
+            <div class="interface">
+            </div><!--interface-->
+        </div><!-- aparelho-tamanho -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
